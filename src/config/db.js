@@ -3,7 +3,7 @@ const mysql = require("mysql2");
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "", // em casa coloca "root", na escola deixa vazio
+  password: "root", // em casa preciso colocar "root", no if deixo vazio
   database: "pets_db",
 });
 
